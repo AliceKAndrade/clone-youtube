@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="youtubeicon.png" type="image/x-icon" />
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img src="youtube-logo-transparente.png" alt="Youtube logo" class="youtube-logo">
+        </a>
+
+        <form class="search-bar">
+            <input class="search-input" type="search" placeholder="Pesquisar" aria-label="Pesquisar" />
+            <button type="submit" class="search-btn">
+                <img src="lupapesquisa.png" alt="Lupa" class="lupa-icon">
+            </button>
+        </form>
+    
+        <div class="menu-icons">
+            <a href="#">
+                <img class="menu-action-icon" src="download-video.png" alt="Upload Video">
+            </a>
+
+            <a href="#">
+                <img class="menu-action-icon" src="apps-icon.png" alt="Apps">
+            </a>
+
+            <a href="#">
+                <img class="menu-action-icon" src="notificacao-icon.png" alt="notifications">
+            </a>
+
+            <a href="#">
+                <img class="menu-channel-icon"
+                src="iconeperfil.jpeg" alt="Your Chanel">
+            </a>
+        </div>
+    </header>
+
+    <div class="categories">
+        <section class="category-section">
+            <button class="category active">Tudo</button>
+            <button class="category">Games</button>
+            <button class="category">Programação</button>
+            <button class="category">Música</button>
+            <button class="category">Documentários</button>
+            <button class="category">Filmes</button>
+            <button class="category">LiveStreams</button>
+            <button class="category">Desenhos</button>
+            <button class="category">Vlogs</button>
+            <button class="category">Outros</button>
+        </section>
+    </div>
+ <!--Primeiro vídeo -->
+    <div class="Videos">
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:24">
+                <img class="thumbnail-image" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/211887112560401.601706b4375ce.png" alt="">
+                </a>
+
+                <div class="video-botton-section">
+                    <a href="#">
+                        <img class="channel-icon"src="https://cdn.icon-icons.com/icons2/3053/PNG/64/league_of_legends_macos_bigsur_icon_190030.png" alt="Icone video">
+                    </a> 
+                    <div class="video-details">
+                        <a href="#" class="video-title">Kai'sa Abilities</a>
+                        <a href="#" class="video-channel-name">League of legends</a> 
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            <span>•</span>
+                            <span>3 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+<!--Segundo vídeo-->
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="38:05">
+                <img class="thumbnail-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a13a989f-f0dc-4782-8bda-eb135276f3be/dasyk4r-626eab46-6fc4-4a02-bea5-dd2ae27f4a99.png/v1/fill/w_1192,h_670,q_70,strp/stardew_valley_template_thumbnail_preview_by_bryonsmothers_dasyk4r-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2ExM2E5ODlmLWYwZGMtNDc4Mi04YmRhLWViMTM1Mjc2ZjNiZVwvZGFzeWs0ci02MjZlYWI0Ni02ZmM0LTRhMDItYmVhNS1kZDJhZTI3ZjRhOTkucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.LbPCn8j4-YjbHxOgGMRUhFBGKFTgBifjjkvNNtUQFns" alt="">
+                </a>
+
+                <div class="video-botton-section">
+                    <a href="#">
+                        <img class="channel-icon"src="https://i.pinimg.com/564x/53/49/1c/53491c7a972e8c4df667ef2b511ba334.jpg" alt="Icone video">
+                    </a> 
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Aprenda a jogar Stardew Valley</a>
+                        <a href="#" class="video-channel-name">willoustick</a> 
+
+                        <div class="video-metadata">
+                            <span>1M views</span>
+                            <span>•</span>
+                            <span> 2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+<!--Terceiro vídeo-->
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="3:32">
+                <img class="thumbnail-image" src="https://i.ytimg.com/vi/Q9n9iTGQMDo/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-botton-section">
+                    <a href="#">
+                        <img class="channel-icon"src="https://i.pinimg.com/originals/e0/8d/ea/e08deabcbbab62aabc7787b265fba0ba.jpg" alt="Icone video">
+                    </a> 
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Zenitsu best moments</a>
+                        <a href="#" class="video-channel-name">Adeditions</a> 
+
+                        <div class="video-metadata">
+                            <span>2,1M views</span>
+                            <span>•</span>
+                            <span>1 year</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+<!--Quarto vídeo-->
+                <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="6:40">
+                <img class="thumbnail-image" src="https://www.beano.com/wp-content/uploads/2022/03/8.png?w=485&strip=all&quality=85" alt="">
+                </a>
+
+                <div class="video-botton-section">
+                    <a href="#">
+                        <img class="channel-icon"src="https://i.pinimg.com/564x/43/7a/9d/437a9d58adfe0b277efc3d6906d6a55c.jpg" alt="Icone video">
+                    </a> 
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">10 curiosidades sobre Hamsters</a>
+                        <a href="#" class="video-channel-name">Peritopet</a> 
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            <span>•</span>
+                            <span>3 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+<!--Quinto vídeo-->
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:36">
+                <img class="thumbnail-image" src="https://media.vaticannews.va/media/content/dam-archive/vaticannews/multimedia/2019/05/14/Robotica%20Intelligenza%20artificiale%202.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.750.422.jpeg" alt="">
+                </a>
+
+                <div class="video-botton-section">
+                    <a href="#">
+                        <img class="channel-icon"src="https://i.pinimg.com/564x/70/f7/ad/70f7ad19c6b158d66142b2ec691e21a0.jpg" alt="Icone video">
+                    </a> 
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Robôs vão dominar o mundo?</a>
+                        <a href="#" class="video-channel-name">Vocênãosabia</a> 
+
+                        <div class="video-metadata">
+                            <span>1M views</span>
+                            <span>•</span>
+                            <span>1 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+<!--Sexto vídeo-->
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="01:06:24">
+                <img class="thumbnail-image" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/study-relax-music-youtube-thumbnail-design-template-13331d3452197585d875057d240a8636_screen.jpg?ts=1588453313" alt="">
+                </a>
+
+                <div class="video-botton-section">
+                    <a href="#">
+                        <img class="channel-icon"src="https://i.pinimg.com/564x/ce/8b/82/ce8b820af3418338a39e1c6d4933fd39.jpg" alt="Icone video">
+                    </a> 
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Study relax music</a>
+                        <a href="#" class="video-channel-name">Studytime</a> 
+
+                        <div class="video-metadata">
+                            <span>1,8M views</span>
+                            <span>•</span>
+                            <span>4 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+<!--Sétimo vídeo-->
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="20:05">
+                <img class="thumbnail-image" src="https://assets.almanaquesos.com/wp-content/uploads/2020/11/livros-para-comecar-a-ler.jpg" alt="">
+                </a>
+
+                <div class="video-botton-section">
+                    <a href="#">
+                        <img class="channel-icon"src="https://1.bp.blogspot.com/-icB3HH3ySjg/YSzie3NgaKI/AAAAAAAA8Rg/QYPUO8ur0gMcbJTUmw4oGvHUnZKI7Qs1gCLcBGAsYHQ/s2048/32BBA01D-466C-473C-A82E-152DB5CEF874.jpeg" alt="Icone video">
+                    </a> 
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">12 livros que você não vai conseguir PARAR DE LER!</a>
+                        <a href="#" class="video-channel-name">Cadadia</a> 
+
+                        <div class="video-metadata">
+                            <span>1.5M views</span>
+                            <span>•</span>
+                            <span>3 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+<!--Oitavo vídeo-->
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="13:54">
+                <img class="thumbnail-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwDW3XWNWT9CcPzfRy5-XG4-syla5EeTSOHwZCOf5wvpaDUu2svmwaeL5sTcmDnCezNU&usqp=CAU" alt="">
+                </a>
+
+                <div class="video-botton-section">
+                    <a href="#">
+                        <img class="channel-icon"src="https://i.pinimg.com/564x/f8/7b/d0/f87bd0f907c7cfe7635959949d65a2d0.jpg" alt="Icone video">
+                    </a> 
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Aprenda a programar do zero</a>
+                        <a href="#" class="video-channel-name">Programaçãozero</a> 
+
+                        <div class="video-metadata">
+                            <span>1M views</span>
+                            <span>•</span>
+                            <span>1 year</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+</body>
+</html>
+
+       
+        
